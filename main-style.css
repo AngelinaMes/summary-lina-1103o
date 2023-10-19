@@ -1,0 +1,181 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('fonts/Roboto-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'RobotoMono';
+    src: url('fonts/RobotoMono-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('fonts/Montserrat-Regular.ttf');
+}
+
+body {
+    background: linear-gradient(#38B2CE, #FFC540, #FF5640);
+    margin: 0%;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+}
+
+header {
+    font-family: 'Roboto';
+    font-size: 80%;
+}
+
+h1 {
+    font-family: 'Montserrat';
+    font-size: 1.5em;
+    text-align: left;
+    padding: 6px 10px;
+}
+
+h2 {
+    font-family: 'Montserrat';
+    font-size: 1em;
+    text-align: left;
+    padding: 6px 10px;
+}
+
+h3 {
+    font-family: 'Montserrat';
+    font-size: 0.5em;
+    text-align: left;
+    padding: 6px 10px;
+}
+
+.wrapper {
+    height: 1180px;
+    width: 1640px;
+    display: inline-block;
+    /* flex-wrap: wrap; */
+    column-count: 3;
+}
+
+.block-one {
+    background: linear-gradient(#FFC200, #560EAD, #0C5DA5);
+    font-family: 'Roboto';
+    font-size: 1em;
+    background: linear-gradient(#FFC200, #560EAD, #0C5DA5);
+    border-radius: 24px;
+    height: 580px;
+    width: 530px;
+    margin: 10px;
+    display: flex; 
+    justify-content: space-between; 
+    flex-wrap: wrap; 
+
+}
+
+.block-two {
+    background: linear-gradient(#FFC200, #560EAD, #0C5DA5);
+    font-family: 'Roboto';
+    font-size: 1em;
+    background: linear-gradient(#FFC200, #560EAD, #0C5DA5);
+    border-radius: 24px;
+    height: 580px;
+    width: 530px;
+    margin: 10px;
+    display: flex; 
+    justify-content: space-between; 
+    flex-wrap: wrap; 
+}
+
+.block-three {
+    background: linear-gradient(#FFC200, #560EAD, #0C5DA5);
+    font-family: 'Roboto';
+    font-size: 1em;
+    background: linear-gradient(#FFC200, #560EAD, #0C5DA5);
+    border-radius: 24px;
+    height: 580px;
+    width: 530px;
+    margin: 10px;
+    display: flex; 
+    justify-content: space-between; 
+    flex-wrap: wrap; 
+}
+
+.block-four {
+    background: linear-gradient(#FFC200, #560EAD, #0C5DA5);
+    font-family: 'Roboto';
+    font-size: 1em;
+    background: linear-gradient(#FFC200, #560EAD, #0C5DA5);
+    border-radius: 24px;
+    height: 580px;
+    width: 530px;
+    margin: 10px;
+    display: flex; 
+    justify-content: space-between; 
+    flex-wrap: wrap; 
+}
+
+.block-five {
+    background: linear-gradient(#FFC200, #560EAD, #0C5DA5);
+    font-family: 'Roboto';
+    font-size: 1em;
+    background: linear-gradient(#FFC200, #560EAD, #0C5DA5);
+    border-radius: 24px;
+    height: 580px;
+    width: 530px;
+    margin: 10px;
+    display: flex; 
+    justify-content: space-between; 
+    flex-wrap: wrap; 
+}
+
+.lin1 :hover {
+    color: white;
+}
+
+.description {
+    font-weight: normal;
+}
+
+.block-one :hover {
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.block-two :hover {
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); 
+}
+
+.block-three :hover {
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.block-four :hover {
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.block-five :hover {
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+a {
+    text-decoration: none;
+}
+
+footer {
+    position: sticky;
+    text-align: center;
+}
+
+.data {
+    text-align: right;
+}
+
+
+img {
+    width: 50px;
+    height: 50px;
+}

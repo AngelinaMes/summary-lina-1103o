@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../Downloads/images"
+		},
+		{
+			"path": "../Downloads/Roboto"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "images"
+	}
+}
